@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+
+<!-- NAME ALL THE LIBRARY FILES -->
+  <head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+
+<!-- FIREBASE CONFIGURATION BEGINS -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBS_2HPLLGRDTn3TUfnNFyJsvNHIwK0PHg",
+    authDomain: "fruit-catcher-9b0cf.firebaseapp.com",
+    projectId: "fruit-catcher-9b0cf",
+    storageBucket: "fruit-catcher-9b0cf.appspot.com",
+    messagingSenderId: "852520678492",
+    appId: "1:852520678492:web:60c545b3f32797e50be299"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<!-- FIREBASE CONFIGURATION ENDS -->
+
+<!-- NAME ALL THE JS FILES -->
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+
+<!-- NAME STYLE.CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+
+<!-- NAME THE SKETCH FILE -->
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
